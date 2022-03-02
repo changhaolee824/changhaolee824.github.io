@@ -38,3 +38,76 @@
     display: inline;
     padding: 0 5px 0 5px;
 }
+.secondary{
+    color: #aaa;
+}
+.title{
+    font-size: 24px;
+}
+.education-item{
+    display: flex;
+    align-items: center;
+    width: 33.33333%;
+}
+.education-item .logo{
+    width: 20%;
+}
+.education-item .logo img {
+    width: 100%;
+}
+.education-item ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.education-item ul :nth-child(1){
+    color: #aaa;
+}
+.education-item ul :nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+}
+.education-item ul :nth-child(3){
+    color: #186a3b;
+}
+.others-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.others-block h3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #aaa;
+}
+.skill {
+    padding-right: 5px;
+}
+.language{
+    padding-left: 5px;
+}
+.others-block>div {
+    width: 50%;
+}
+.others-block>*{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px){
+.avatar,
+.avatar>img {
+    width: 100%;
+}
+.intro-block .content{
+    width: 100%;
+}
+.intro-block>.row {
+    flex-direction: column;
+}
+.avatar{
+    max-width: 150px;
+}
+.education-item{
+    width: 100%;
+}
+.others-block>* {
+    width: 100%;
+}
+}
